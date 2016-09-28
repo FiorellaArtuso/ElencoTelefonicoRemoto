@@ -1,0 +1,11 @@
+htonl-->conversione di un unsigned integer da host byte order a network byte order
+htons-->conversione di un unsigned integer short da '''''''
+stderr-->viene scritto su questo canale standard di comunicazione l' errore che verrà visualizzato sul terminale aperto. viene rindirizzato in questo canale di
+            modo che se anche lo stdout è diretto altrove cmq il messaggio di errore viene stampatoa video e visto.
+fprintf-->per scrivere la stringa sullo stream specificato
+inet_ntoa-->converte un indirizzo network ad una notazione dotted
+perror-->scrive sullo standard error l' ultimo errore incontrato con la chiamata di una sys_call
+strncmp-->comparo due stringhe ma posso specificare il numero di caratteri da confrontare
+strtol-->converte una stringa in numero secondo la base specificata e lo restituisce come parametro...il secondo argomento contiene il puntatore al primo
+        carattere non numerico,nel caso del server questo carattere non deve comparire.
+gethostbyname-->restituisce l hostnet per un name (esempio localhost)
